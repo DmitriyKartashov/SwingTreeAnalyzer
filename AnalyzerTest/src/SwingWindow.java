@@ -13,7 +13,7 @@ public class SwingWindow {
 
     public static void main(String... args){
 		JFrame frame = new JFrame();
-		frame.setVisibl(true);
+		frame.setVisible(true);
 		TreeAnalyzer.doAnalyze(frame);
     }
 
